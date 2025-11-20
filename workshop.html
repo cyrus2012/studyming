@@ -13,7 +13,10 @@
 
  <nav class="navbar navbar-expand-sm fixed-top bg-primary" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">5C科萌學院</a>
+        <a class="navbar-brand" href="#">
+            <img src="./img/icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            5C科萌學院
+        </a>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,33 +44,21 @@
 
     <div class = "container-fluid top-container" >
 
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel slide col-md-8 mx-auto">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner ">
                 <div class="carousel-item active">
-                <img src="https://www.dropbox.com/scl/fi/13wgialwh8mv5l49kp343/Costa-Rican-Frog.jpg?rlkey=4nmgw7esru2k9d4jreyfuq8qk&st=v3r1j0uz&raw=1" class="d-block w-100" alt="4 students">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
+                    <img src="https://www.dropbox.com/scl/fi/5g9rhtdl2vjulpqa4bkos/D25_7480.jpg?rlkey=8rqwg72xb1a3agef2dy3hch4g&st=2ex2k0c8&raw=1" class="d-block w-100" alt="watching instruction">
                 </div>
                 <div class="carousel-item">
-                <img src="https://www.dropbox.com/scl/fi/izlnvnystwpni9f278cjj/Boston-City-Flow.jpg?rlkey=ymh1b904aqwyv54c7grd4o7bc&st=llddqqzm&raw=1" class="d-block w-100" alt="showing the gadget">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                    <img src="https://www.dropbox.com/scl/fi/gnb3xh0rikkfad814qyq2/D25_7496.jpg?rlkey=d1e7twwik9lwm08q3g2ao0eb8&st=hh27fkqu&raw=1" class="d-block w-100" alt="building the gadget">
                 </div>
                 <div class="carousel-item">
-                <img src="https://www.dropbox.com/scl/fi/r2d0iii9wb44wqy51npvs/Pensive-Parakeet.jpg?rlkey=xhk3geufpmfiwde70t26v6imr&st=31ldjfik&raw=1" class="d-block w-100" alt="hand work">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                    <img src="https://www.dropbox.com/scl/fi/wyn2l62ztfoqm7uttywcc/D25_7657.jpg?rlkey=f2ixhc9nfjmsvetk83uq7qug8&st=19vb0zey&raw=1" class="d-block w-100" alt="finished the gadget">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -80,26 +71,31 @@
             </button>
         </div>
 
+        <div class="mt-4 mx-auto d-sm-flex justify-content-center align-self-start">
+            <div class="ratio ratio-16x9 workshop-video">
+                <iframe class="" src="https://www.youtube.com/embed/y3FS-Lrey08?si=NYzRSulanbo1NhlC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="ms-3">
+                <h3 class="text-danger">Workshop 1</h3>
+                <p>This video is embeded from youtube. Make a 3D hologram. Some representative placeholder content to be added here, eg time, place...</p>
+            </div>
+        </div>
 
-        <h1 class="ms-3 mt-3">video from MS onedrive</h1>
-        <div class="d-sm-flex ">
+        <div class="mt-4 mx-auto justify-content-center d-sm-flex align-self-start">
 
-            <video width="320" height="240" controls>
-                <source src="https://my.microsoftpersonalcontent.com/personal/29fe2c298a19c388/_layouts/15/download.aspx?UniqueId=32e01f5c-71d2-43f5-9991-04fbee838793&Translate=false&tempauth=v1e.eyJzaXRlaWQiOiIzMWJiZjQ0ZS01NDM3LTRmOGEtYThmYS1hNGJlZjM1YzNlZmYiLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJleHAiOiIxNzYxMjk4OTU0In0.m5XM_Wvo3X-arFO63SkFv2vHB2fmn3q_MA-IAg_j8oC5-Ofj4-hAykB6Oc4SycOVwMsmRm_tn9yfaP7QlHIdAOhyTOinrRXFst8Nx7QuKV1Z4H35n61jm5E55uN_bq53790yMsH5yzskDh3eKOZ47r24Y0NdYnVYsyKlEwAl8C34imyhqpUXNQmq2t6OohHEZiRZkIZAU86y_ZSr3DdgR_EYMboxWHXgs3Uy1wMs8qX4TPR-bRADC0SpdyKWSaOvk_HLZhyerSPCl_dPBBOLK8kmPKm1DeAKj9tcePM3xOAyOumaqV8zLTI2kBJkF2RJREBrJdeapebulIP0rCX3mgI_CrG0r8zGRrm201cWbroU4Z1kGJY1tyK4fE_E3l4Lqwr3SFm5snGNK0-RW8N_CCAdXPxf5OgK3eCP3k5_GLwUOsIlSta19EBYmd0IjcWK2C27kTm8oKi0kOdn62S6fOdeLvEf2rNAxAOGGYmjfKmB0tmr2OJqSjL6G1Obvnx4FYh0yxf7wlHrMO1IeyaFRQ.EtOC2v1H6N5K6E3K3aSq624qmQ1ylfAA3BJRybsxihU&ApiVersion=2.0" type="video/mp4">
+            <video class="ratio ratio-16x9 workshop-video" controls>
+                <source src="https://www.dropbox.com/scl/fi/sjgi68ryk1iuvvgs74h01/IMG_0682.mp4?rlkey=imzpnioc72yd3ogheiag6924k&st=kzsn3agc&raw=1" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             
             <div class="ms-3">
-                <h3 class="text-danger">Workshop 1</h3>
-                <p>Make a 3D hologram. Some representative placeholder content to be added here, eg time, place...</p>
+                <h3 class="text-danger">Workshop 2</h3>
+                <p>This video is loaded from dropbox. Make a 3D hologram. Some representative placeholder content to be added here, eg time, place...</p>
             </div>
         </div>
  
 
-        <h1>video from youtube</h1>
-        <div class="ratio ratio-16x9 w-75">
-            <iframe  src="https://www.youtube.com/embed/y3FS-Lrey08?si=NYzRSulanbo1NhlC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+
 
 
     </div>
