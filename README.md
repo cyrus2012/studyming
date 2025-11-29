@@ -7,16 +7,20 @@ col-lg-4: the component occupy 4 of 12 width in a row for large screen
 col-sm-6: the component occupy 6 of 12 width in a row for medium screen or larger and occupy entire row for small screen 
 
 screen(large)
-![image](picture url)
+
+![picture_url](screenshot/homepage_large_screen.png)
 
 screen(medium)
-![image](picture url)
 
+![picture_url](screenshot/homepage_middle_screen.png)
 
 screen(small)
-![image](picture url)
+
+![picture_url](screenshot/homepage_small_screen.png)
+
 
 
 Page 工作坊 embeded Youtube video and video that stored by dropbox.
 Also use class "carousel" to display photos in a box and slide to switch different photo.
-![image](picture url)
+
+![picture_url](screenshot/workshop.png)
